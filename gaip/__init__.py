@@ -14,8 +14,7 @@ from margins import *
 from constants import PQAConstants
 from pqa_result import PQAResult
 from saturation_masking import set_saturation_bits
-from contiguity_masking import set_contiguity_bit
-from fc_utils import *
+
 from endmembers import *
 from mem_utils import *
 
@@ -23,7 +22,7 @@ from thermal_conversion import get_landsat_temperature
 from acca_cloud_masking import calc_acca_cloud_mask
 from acca_cloud_masking import majority_filter
 from fmask_cloud_masking_wrapper import fmask_cloud_mask
-from cloud_shadow_masking import cloud_shadow
+
 from calculate_self_shadow import self_shadow
 
 try:
@@ -38,8 +37,11 @@ try:
     from calculate_angles import *
     from tc import *
     from dsm import get_dsm
+    from fc_utils import *
+    from cloud_shadow_masking import cloud_shadow
     from cast_shadow import calculate_cast_shadow
     from calculate_reflectance import calculate_reflectance
+    from contiguity_masking import set_contiguity_bit
     from calculate_incident_exiting_angles import *
     from calculate_slope_aspect import *
 except ImportError:
