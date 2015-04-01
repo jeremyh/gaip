@@ -2,7 +2,7 @@ import unittest
 
 from pathlib import PosixPath
 
-from gaip.packaging.read import mtl
+from gaip.packaging.metadata import mtl
 from gaip.packaging.type import *
 
 

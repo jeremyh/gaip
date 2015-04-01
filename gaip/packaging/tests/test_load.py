@@ -3,7 +3,7 @@ import unittest
 from pathlib import PosixPath
 
 import gaip.packaging.load as load
-from gaip.packaging.read.tests import write_files
+from gaip.packaging.metadata.tests import write_files
 from gaip.packaging.type import *
 
 

@@ -3,8 +3,8 @@ import unittest
 
 import datetime
 
-import gaip.packaging.read.adsfolder as adsfolder
-from gaip.packaging.read.tests import write_files
+import gaip.packaging.metadata.adsfolder as adsfolder
+from gaip.packaging.metadata.tests import write_files
 import gaip.packaging.type as ptype
 
 

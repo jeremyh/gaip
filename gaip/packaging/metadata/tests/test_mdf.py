@@ -4,8 +4,8 @@ import unittest
 import datetime
 import pathlib
 
-import gaip.packaging.read.mdf as mdf
-from gaip.packaging.read.tests import write_files
+import gaip.packaging.metadata.mdf as mdf
+from gaip.packaging.metadata.tests import write_files
 import gaip.packaging.type as ptype
 
 

@@ -11,7 +11,7 @@ from pathlib import Path
 from gaip import acquisition
 
 from gaip.packaging import image
-from gaip.packaging.read import mdf, mtl, adsfolder
+from gaip.packaging.metadata import mdf, mtl, adsfolder
 import gaip.packaging.type as ptype
 
 
