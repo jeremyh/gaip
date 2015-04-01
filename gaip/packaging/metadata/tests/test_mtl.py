@@ -1,6 +1,6 @@
 import unittest
 
-from pathlib import PosixPath
+from pathlib import Path, PosixPath
 
 from gaip.packaging.metadata import mtl
 from gaip.packaging.type import *

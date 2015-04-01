@@ -1,8 +1,8 @@
 import unittest
 
-from pathlib import PosixPath
+from pathlib import PosixPath, Path
 
-import gaip.packaging.load as load
+import gaip.packaging.package as load
 from gaip.packaging.metadata.tests import write_files
 from gaip.packaging.type import *
 

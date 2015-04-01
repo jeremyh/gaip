@@ -1,7 +1,4 @@
-import os
 import unittest
-
-import datetime
 
 import gaip.packaging.metadata.adsfolder as adsfolder
 from gaip.packaging.metadata.tests import write_files
@@ -39,5 +36,5 @@ class AdsFolderExtractionTest(unittest.TestCase):
 if __name__ == '__main__':
     import doctest
 
-    doctest.testmod(mdf)
+    doctest.testmod(adsfolder)
     unittest.main()

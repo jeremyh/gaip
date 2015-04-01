@@ -1,7 +1,6 @@
 """
 Extract metadata from ADS directory names.
 """
-import os
 import re
 import gaip.packaging.type as ptype
 
