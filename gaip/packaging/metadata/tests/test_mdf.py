@@ -5,7 +5,7 @@ import datetime
 import pathlib
 
 import gaip.packaging.metadata.mdf as mdf
-from gaip.packaging.metadata.tests import write_files
+from gaip.packaging.tests import write_files
 import gaip.packaging.type as ptype
 
 

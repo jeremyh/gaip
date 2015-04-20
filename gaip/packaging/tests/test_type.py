@@ -9,7 +9,7 @@ import dateutil.parser
 from pathlib import Path
 
 from gaip.packaging import type as ptype, serialise
-from gaip.packaging.metadata.tests import temp_file
+from gaip.packaging.tests import temp_file
 
 
 def _serialise_to_file(file_name, dataset):

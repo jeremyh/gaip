@@ -1,7 +1,7 @@
 import unittest
 
 import gaip.packaging.metadata.adsfolder as adsfolder
-from gaip.packaging.metadata.tests import write_files
+from gaip.packaging.tests import write_files
 import gaip.packaging.type as ptype
 
 
