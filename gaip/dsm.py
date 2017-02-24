@@ -7,7 +7,7 @@ from gaip import filter_dsm
 from gaip import GriddedGeoBox
 from gaip import reproject_file_to_array
 from gaip import write_img
-from rasterio.warp import RESAMPLING
+from rasterio.warp import Resampling
 
 
 def get_dsm(acquisition, national_dsm, margins, fname_subset, fname_smoothed):
@@ -62,7 +62,7 @@ def get_dsm(acquisition, national_dsm, margins, fname_subset, fname_smoothed):
 
     # Retrive the DSM data
     dsm_data = reproject_file_to_array(national_dsm, dst_geobox=dem_geobox,
-                                       resampling=RESAMPLING.bilinear)
+                                       resampling=Resampling.bilinear)
 
     # Output the reprojected result
     write_img(dsm_data, fname_subset, fmt='GTiff', geobox=dem_geobox,

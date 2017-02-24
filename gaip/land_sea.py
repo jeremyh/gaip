@@ -3,12 +3,11 @@
 # get Land/Sea mask from UTM dataset
 #-----------------------------------
 import rasterio as rio
-from rasterio.crs import from_string
 import osr
 from gaip import GriddedGeoBox, write_img
 import numpy
 from affine import Affine
-from rasterio.warp import reproject, RESAMPLING
+from rasterio.warp import reproject, Resampling
 
 def get_utm_zone(pos_longlat):
     """
